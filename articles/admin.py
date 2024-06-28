@@ -9,4 +9,5 @@ class ArticleAdmin(admin.ModelAdmin):
         "author",
     ]
 
+
 admin.site.register(Article, ArticleAdmin)
